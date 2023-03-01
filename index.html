@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="./practice.js"></script>
+    <script defer src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <style>
+      .pyramid-row {
+        display: flex;
+        justify-content: center;
+      }
+
+      .pyramid-block {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(131, 30, 171);
+        margin: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="userInfo">
+      <label for="name">name:</label>
+      <input type="text" id="name" name="name" />
+      <label for="email">email:</label>
+      <input type="text" id="email" name="email" />
+      <label for="age">age:</label>
+      <input type="text" id="age" />
+      <button id="send-btn">send</button>
+    </div>
+    <br /><br /><br /><br />
+    <hr />
+    <div id="a">
+      <h1>practice</h1>
+    </div>
+    <br /><br />
+    <button id="change-background-btn">change a divs background</button>
+    <button id="remove-background-btn">remove a divs background</button>
+    <button id="change-border-btn">add the border</button>
+    <button id="remove-border-btn">remove the border</button>
+    <button id="change-the-text-randomly">change the text randomly</button>
+
+    <br /><br /><br /><br /><br />
+    <label for="levels">Enter the number of levels:</label>
+    <input type="number" id="levels" min="1" />
+    <button id="draw">Draw Pyramid</button>
+    <div id="pyramid"></div>
+  </body>
+</html>
